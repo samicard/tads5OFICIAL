@@ -1,0 +1,83 @@
+Funções para Gerenciamento de Frotas
+
+* Adicionar Usuario
+    - nome
+    - senha
+    - CPF
+    - celualr
+    - data de nascimento
+    - email
+    -  EDITAR / VISUALIZAR / EXCLUIR
+
+* Fornecedores dos serviços prestados
+    - CNPJ
+    - nome
+    - telefone
+    - email
+    - logradouro
+    - numero
+    - bairro
+    - complemento
+    - cidade
+    - estado
+    - cep
+    - serviço_id CHAVE ESTRANGEIRA
+    - EDITAR / VISUALIZAR / EXCLUIR
+
+* Fabricantes
+    - nome
+    - abreviado
+    - EDITAR / VISUALIZAR / EXCLUIR
+
+* Tipo do veiculo
+    -  modelo
+    - ano
+    - placa
+    - fabricante_id CHAVE ESTRANGEIRA
+    - tipo_id CHAVE ESTRANGEIRA
+    - EDITAR / VISUALIZAR / EXCLUIR
+
+* Serviço usado
+    - tipo prestado: eletrico ou mecanico / urbano ou rural
+    - EDITAR / VISUALIZAR / EXCLUIR
+
+* Veiculos atendidos
+    - modelo
+    - ano
+    - placa
+    - fabricante_id CHAVE ESTRANGEIRA
+    - tipo_id CHAVE ESTRANGERIA
+    - EDITAR / VISUALIZAR / EXCLUIR
+    - Adicionar quilometragem
+
+* Manutenções já com historico do atendimento
+    - valor
+    - data
+    - numntfiscal
+    - fabricante_id CHAVE ESTRANGEIRA
+    - veiculo_id CHAVE ESTRANGEIRA
+    - EDITAR / VISUALIZAR / EXCLUIR
+
+* Peças usadas no veiculo
+    - nome
+    - valor
+    - garantia
+    - numntfiscal
+    - fabricante_id CHAVE ESTRANGEIRA
+    - EDITAR / VISUALIZAR / EXCLUIR
+
+. Campo de busca para pesquisar pela placa do veiculo cadastrado(visualizar historico da manutenção)
+    - criar um campo de busca para pesquisar por placa
+    - listar o historico de manutenção
+
+. Relatorio e Indicadores financeiro e período (Excel, CSV, PDF)
+    - exportar o mesmo relatorio do visual manutenção
+    - adicionar peça
+    - adicionar durabilidae(fazer comparação de peça para ver se esta valendo a pena)
+
+
+Proxima aula
+descrição de cada funções funcionando
+
+Manutenções Preventiva e Manutenções corretiva
+Comparativo de uma manutenção preventiva
